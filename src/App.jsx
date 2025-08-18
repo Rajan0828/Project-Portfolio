@@ -47,6 +47,10 @@ function App() {
           transition={{ duration: 0.6 }}
         >
           <p>&copy; 2025 Rajan Macaraig. All rights reserved.</p>
+          <p>
+            Designed & Developed by Rajan Macaraig · GitHub: @Frenly28
+            · rajanmacaraig@gmail.com
+          </p>
         </motion.footer>
       </div>
     </>

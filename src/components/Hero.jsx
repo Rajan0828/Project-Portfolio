@@ -103,22 +103,22 @@ const Hero = ({ animations }) => {
             variants={staggerContainer}
           >
             <motion.a
-              href="https://github.com/rajanmacaraig"
+              href="https://github.com/Rajan0828"
               target="__blank"
             >
               <i className="fab fa-github"></i>
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/rajanmacaraig"
+              href="https://www.linkedin.com/in/rajan-mole-macaraig-05541a37b/"
               target="__blank"
             >
               <i className="fab fa-linkedin"></i>
             </motion.a>
             <motion.a
-              href="https://twitter.com/rajanmacaraig"
+              href="https://www.facebook.com/rajanmole15/"
               target="__blank"
             >
-              <i className="fab fa-twitter"></i>
+              <i className="fab fa-facebook"></i>
             </motion.a>
           </motion.div>
         </motion.div>
