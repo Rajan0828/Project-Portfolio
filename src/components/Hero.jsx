@@ -56,24 +56,28 @@ const Hero = ({ animations }) => {
           animate="animate"
         >
           <motion.div className="hero-badge">
-            <span>👋Hello, I'm</span>
+            <span>🤝 Greetings, I'm</span>
           </motion.div>
           <motion.h1
             className="glitch"
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            Rajan
+            Rajan Macaraig
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
-            Creative Developer & Designer
+            Creative Frontend Web Developer
           </motion.h2>
 
           <motion.p className="hero-description" variants={fadeInUp}>
-            I'm a creative developer and designer based in Manila,
-            Philippines. I specialize in front-end development and
-            UI/UX. I'm passionate about creating visually stunning and
-            user-friendly websites and applications.
+            I’m a licensed Electronics and Communications Engineer
+            based in Manila, Philippines, eager to build a strong
+            career in web development. I specialize in frontend
+            development, passionate about creating responsive,
+            efficient, and user-friendly web applications. I thrive on
+            learning new technologies and expanding my skills across
+            modern web development stacks, bringing both technical
+            rigor and creativity to every project.
           </motion.p>
 
           <motion.div

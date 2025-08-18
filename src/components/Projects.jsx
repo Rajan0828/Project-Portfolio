@@ -59,7 +59,7 @@ const Projects = ({ animations }) => {
               <span>HTML5</span>
               <span>CSS3</span>
               <span>JavaScript</span>
-              <span>Framer Motion</span>
+              <span>ScrollReveal.js</span>
             </div>
           </motion.div>
         </a>
@@ -180,7 +180,7 @@ const Projects = ({ animations }) => {
               <span>HTML5</span>
               <span>CSS3</span>
               <span>Javascript</span>
-              <span>Framer Motion</span>
+              <span>GSAP</span>
             </div>
           </motion.div>
         </a>
