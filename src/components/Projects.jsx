@@ -59,6 +59,7 @@ const Projects = ({ animations }) => {
               <span>HTML5</span>
               <span>CSS3</span>
               <span>JavaScript</span>
+              <span>Framer Motion</span>
             </div>
           </motion.div>
         </a>
@@ -139,6 +140,7 @@ const Projects = ({ animations }) => {
               <span>Vite</span>
               <span>Javascript</span>
               <span>CSS3</span>
+              <span>Framer Motion</span>
               <span>JSON Server</span>
             </div>
           </motion.div>
@@ -178,6 +180,7 @@ const Projects = ({ animations }) => {
               <span>HTML5</span>
               <span>CSS3</span>
               <span>Javascript</span>
+              <span>Framer Motion</span>
             </div>
           </motion.div>
         </a>
