@@ -4,38 +4,75 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const codeString = `const profile = {
-  name: "Rajan Mole Macaraig",
-  role: "Web Developer",
-  location: "Philippines",
-  skills: [
-    "React.js",
-    "Tailwind CSS",
-    "JavaScript (ES6+)",
-    "Framer Motion",
-    "HTML5",
-    "CSS3"
+  personal: {
+    name: "Rajan Mole D. Macaraig",
+    role: "Web Developer & Electronics Engineer",
+    location: "Las Pinas City, Philippines",
+    contact: {
+      email: "rajanmolemacaraig28@gmail.com",
+      github: "https://github.com/yourusername",
+      linkedin: "https://linkedin.com/in/yourusername",
+      website: "https://rajanmolemacaraig.com",
+      phone: "+63-976-572-7039"
+    }
+  },
+  certifications: [
+    { name: "Licensed Electronics Engineer (ECE)", year: 2024 },
+    { name: "Licensed Electronics Technician (ECT)", year: 2024 },
+    { name: "The Web Developer Bootcamp 2025 - Udemy", year: 2025 }
   ],
+  skills: {
+    programming: ["HTML5", "CSS3", "JavaScript (ES6+)", "MATLAB", "GNU Octave"],
+    frameworks: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MaterialUI"],
+    tools: ["AutoCAD", "Cisco Packet Tracer", "VHDL", "NI Multisim", "LTspice / Electric", "IBS Design", "MS Excel"],
+    languages: ["English", "Tagalog"],
+    interests: ["Tech Builds", "Design & Digital Arts", "Sports"]
+  },
   projects: [
     {
-      name: "Portfolio Website",
-      stack: ["React", "Tailwind", "Framer Motion"],
-      description: "Personal portfolio showcasing projects and skills."
+      name: "React Portfolio",
+      stack: ["React.js", "Tailwind CSS", "Framer Motion"],
+      description: "Portfolio web app with smooth animations, responsive design, EmailJS contact form, and syntax-highlighted code snippets."
     },
     {
-      name: "UI Animations",
-      stack: ["Framer Motion", "CSS"],
-      description: "Smooth animated components and transitions."
+      name: "Unmanned Amphibious Robot",
+      stack: ["Raspberry Pi", "LoRa", "YOLOv5", "GPS"],
+      description: "LoRa-based amphibious robot with real-time video streaming, GPS tracking, and human detection for rescue operations."
+    },
+    {
+      name: "8 By The Street Coffee Shop Page",
+      stack: ["React.js", "Tailwind CSS"],
+      description: "Responsive landing page with interactive UI and menu display."
+    },
+    {
+      name: "CineFind",
+      stack: ["React.js", "REST API", "Appwrite"],
+      description: "Movie searcher app with live API integration, search analytics, and user behavior tracking."
+    },
+    {
+      name: "Craft Connect",
+      stack: ["React.js", "React Router"],
+      description: "Freelancer-client platform with project listings, dashboard, and smooth navigation."
+    },
+    {
+      name: "NoteLab",
+      stack: ["JavaScript", "Local Storage"],
+      description: "Interactive note-taking app with full CRUD capabilities and local storage support."
+    },
+    {
+      name: "Subscription Tracker",
+      stack: ["Express.js", "MongoDB", "JWT", "Upstash", "Day.js"],
+      description: "Subscription management app with notifications, authentication, and intuitive UI."
+    },
+    {
+      name: "Quick Builds",
+      stack: ["Various Web Tech"],
+      description: "Collection of fast-deployment web apps demonstrating modern web development techniques."
     }
-  ],
-  contact: {
-    email: "your.email@example.com",
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername"
-  }
+  ]
 };
 
-export default profile;
-`;
+export default profile;`;
 
 const Hero = ({ animations }) => {
   const { fadeInUp, staggerContainer } = animations;
@@ -71,8 +108,8 @@ const Hero = ({ animations }) => {
 
           <motion.p className="hero-description" variants={fadeInUp}>
             I’m a licensed Electronics and Communications Engineer
-            based in Manila, Philippines, eager to build a strong
-            career in web development. I specialize in frontend
+            based in Metro Manila, Philippines, eager to build a
+            strong career in web development. I specialize in frontend
             development, passionate about creating responsive,
             efficient, and user-friendly web applications. I thrive on
             learning new technologies and expanding my skills across

@@ -29,7 +29,7 @@ const Projects = ({ animations }) => {
         viewport={{ once: true }}
       >
         <a
-          href="https://github.com/Rajan0828/Unmanned-Amphibious-Robot"
+          href="https://unmanned-amphibious-robot.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -65,7 +65,7 @@ const Projects = ({ animations }) => {
         </a>
 
         <a
-          href="https://github.com/Rajan0828/CineFind"
+          href="https://cine-find-one.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -105,7 +105,7 @@ const Projects = ({ animations }) => {
         </a>
 
         <a
-          href="https://github.com/Rajan0828/Craft-Connect"
+          href="https://craft-connect-xi.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -147,7 +147,7 @@ const Projects = ({ animations }) => {
         </a>
 
         <a
-          href="https://github.com/Rajan0828/8-By-The-Street-Coffee-Shop"
+          href="https://8-by-the-street-coffee-shop.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -186,7 +186,7 @@ const Projects = ({ animations }) => {
         </a>
 
         <a
-          href="https://github.com/Rajan0828/Note-Lab"
+          href="https://note-lab.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -222,7 +222,7 @@ const Projects = ({ animations }) => {
         </a>
 
         <a
-          href="https://github.com/Rajan0828/Subscription-Tracker"
+          href="https://subscription-tracker-ruby.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
